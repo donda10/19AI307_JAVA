@@ -26,14 +26,35 @@ To create a java program to read 5 values and display the all 5 values from arra
  ```
 /*
 Program to implement a Single Array using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Simon Malachi S
+RegisterNumber: 212224040318 
 */
 ```
 
 ## Sourcecode.java:
 
+```
+import java.util.Scanner;
 
+class ArrayExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int[] values = new int[5];
+
+        for (int i = 0; i < 5; i++) {
+            values[i] = scanner.nextInt();
+        }
+
+        System.out.println("Elements in Array are:");
+        for (int i = 0; i < 5; i++) {
+            System.out.print(values[i] + " ");
+        }
+
+        scanner.close();
+    }
+}
+
+```
 
 
 
@@ -41,6 +62,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/41f4b3f3-5dbc-4a07-9614-5dab2d20c8f7)
 
 
 ## RESULT:
