@@ -26,14 +26,36 @@ b)	Call the `display(8, 9)` method on the `ad` object
  ```
 /*
 Program to implement a access modifiers using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Simon Malachi S
+RegisterNumber: 212224040318 
 */
 ```
 
 ## Sourcecode.java:
 
+```
+class Addition {
+    private int num1;
+    private int num2;
 
+    private int add() {
+        return num1 + num2;
+    }
+
+    public void display(int n1, int n2) {
+        num1 = n1;
+        num2 = n2;
+        int result = add();
+        System.out.println("Sum: " + result);
+    }
+
+    public static void main(String[] args) {
+        Addition ad = new Addition();
+        ad.display(8, 9);
+    }
+}
+
+```
 
 
 
