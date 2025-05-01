@@ -28,7 +28,23 @@ RegisterNumber:
 
 ## Sourcecode.java:
 
+```
+import java.util.Scanner;
 
+class CubeCalculator {
+    static int cubecal(int n) {
+        return n * n * n;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int result = cubecal(n);
+        System.out.println("Cube is: " + result);
+    }
+}
+
+```
 
 
 
@@ -36,6 +52,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/1027d270-c886-4747-8187-0ae7fe820b64)
 
 
 ## RESULT:
