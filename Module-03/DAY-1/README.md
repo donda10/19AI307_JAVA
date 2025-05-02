@@ -44,7 +44,8 @@ class Demo {
 
 
 ## OUTPUT:
-212224040318
+
+![image](https://github.com/user-attachments/assets/8455777b-f188-4fbc-99b2-016cfbd135e5)
 
 
 ## RESULT:
