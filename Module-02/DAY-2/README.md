@@ -63,6 +63,7 @@ class Addition {
 
 ## OUTPUT:
 
+<img width="853" height="221" alt="image" src="https://github.com/user-attachments/assets/1ee6d42c-7bf5-4e1b-9f3c-f84e2785b968" />
 
 
 ## RESULT:
